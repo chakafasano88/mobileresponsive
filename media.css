@@ -1,0 +1,267 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: monospace;
+  font-weight: 600px;
+  color: white;
+}
+
+/* Smartphones (portrait and landscape)*/
+@media only screen
+and (min-width : 320px)
+and (max-width : 568px) {
+
+/*Main Navigation Bar*/
+  .nav {
+    position: fixed;
+    background-color: steelblue;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin: 0px;
+    padding:0px
+  }
+/*Tabs that link to other pages*/
+  .linkref {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 10px;
+    display: block;
+  }
+/*Mouse hover changes block color*/
+  a:hover {
+    background-color: orange;
+  }
+/*Main content container*/
+  .container {
+    border: 1px solid black;
+    max-width: 100%;
+    height: 700px;
+    background-color: bisque;
+    position: relative;
+    top: 80px;
+
+  }
+/*TV image*/
+  img {
+    position: relative;
+    max-width: 70%;
+    padding: 170px 60px 0px 80px;
+
+  }
+/*Container for button and "slogan"*/
+  .text {
+    position: absolute;
+    z-index: 1;
+    max-width: 80%;
+    height: 200px;
+    top: 30px;
+    left: 15%;
+    text-align: center;
+    color: peru;
+  }
+/*Shop Now Button*/
+  #button {
+    font-size: 15px;
+    background-color: steelblue;
+    font-family: monospace;
+  }
+}
+
+/* iPads (portrait and landscape)*/
+@media only screen
+and (min-width : 569px)
+and (max-width : 736px){
+
+  .nav {
+    position: fixed;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin: 0px;
+    padding:0px
+  }
+/*Tabs that link to other pages*/
+  .linkref {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 15px;
+    display: block;
+  }
+/*Mouse hover changes block color*/
+  a:hover {
+    background-color: orange;
+  }
+/*Main content container*/
+  .container {
+    border: 1px solid black;
+    max-width: 100%;
+    height: 500px;
+    background-color: bisque;
+    position: absolute;
+    top: 80px;
+
+  }
+/*TV image*/
+  img {
+    position: relative;
+    max-width: 45%;
+    top: 30%;
+    left: 25%;
+
+
+
+  }
+/*Container for button and "slogan"*/
+  .text {
+    position: absolute;
+    z-index: 1;
+    max-width: 80%;
+    height: 200px;
+    top: 30px;
+    left: 22%;
+    text-align: center;
+    color: peru;
+  }
+
+/*Shop Now Button*/
+  #button {
+    font-size: 15px;
+    background-color: steelblue;
+    font-family: monospace;
+  }
+}
+/*Ipad 1, 2, 3 and mini*/
+@media only screen
+and (min-width : 737px)
+and (max-width : 1024px) {
+
+  .nav {
+    position: fixed;
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    margin: 0px;
+    padding:0px
+  }
+/*Tabs that link to other pages*/
+  .linkref {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 15px;
+    display: block;
+  }
+/*Mouse hover changes block color*/
+  a:hover {
+    background-color: orange;
+  }
+/*Main content container*/
+  .container {
+    border: 1px solid black;
+    max-width: 100%;
+    height: 500px;
+    background-color: bisque;
+    position: absolute;
+    top: 80px;
+
+  }
+/*TV image*/
+  img {
+    position: relative;
+    max-width: 50%;
+    padding: 170px 50px 0px 0px;
+    left: 25%;
+
+  }
+/*Container for button and "slogan"*/
+  .text {
+    position: absolute;
+    z-index: 1;
+    max-width: 80%;
+    height: 200px;
+    top: 30px;
+    left: 30%;
+    text-align: center;
+    color: peru;
+  }
+
+/*Shop Now Button*/
+  #button {
+    font-size: 15px;
+    background-color: steelblue;
+    font-family: monospace;
+  }
+}
+
+@media only screen
+and (min-width : 1025px)
+and (max-width : 1300px) {
+
+  .nav {
+    position: fixed;
+    background-color: steelblue;
+    color: white;
+    width: 100%;
+    height: 70px;
+    text-align: center;
+  }
+
+  .linkref {
+    float: left;
+    color: white;
+    text-decoration: none;
+    padding: 23px;
+    font-size: 20px;
+    display: block;
+  }
+
+  a:hover {
+    background-color: orange;
+  }
+
+
+  .container {
+    border: 1px solid black;
+    max-width: 100%;
+    height: 700px;
+    background-color: bisque;
+    position: fixed;
+    top: 80px;
+  }
+
+  img {
+    max-width: 50%;
+    float: right;
+    padding: 70px 60px 0px 0px;
+
+  }
+
+  .text {
+    position: absolute;
+    z-index: 1;
+    max-width: 18%;
+    height: 200px;
+    top: 160px;
+    left: 120px;
+    text-align: center;
+    color: peru;
+  }
+
+  #button {
+    font-size: 25px;
+    background-color: steelblue;
+    font-family: monospace;
+  }
+
+}
